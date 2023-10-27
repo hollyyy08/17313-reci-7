@@ -29,11 +29,7 @@ jobs:
         uses: rickstaa/action-black@v1.3.1
       - name: format
         run : |
-<<<<<<< HEAD
           pipenv run black .
       - name: pytest
         run : |
           pipenv run pytest --cov=app
-=======
-          pipenv run black .
->>>>>>> 5ed00bf8863812364180f72c63744c29a3cb94d4
