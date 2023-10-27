@@ -30,3 +30,6 @@ jobs:
       - name: format
         run : |
           pipenv run black .
+      - name: pytest
+        run : |
+          pipenv run pytest --cov=app
